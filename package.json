@@ -1,0 +1,14 @@
+{
+  "Name": "adambergmanio",
+  "version": "1.0.0",
+  "scripts": {
+    "tw": "npx tailwind build themes/manio/tw/style.css -o public/blog/css/main.css",
+    "watch:css-unix": "onchange 'themes/manio/tw/*css' 'public/blog/css/screen.css' -- npm run tw",
+    "watch:css-windows": "onchange -d 1500 \"themes/manio/tw/*css\" -- npm run tw"
+  },
+  "dependencies": {
+    "onchange": "^6.1.0",
+    "process": "^0.11.10",
+    "tailwindcss": "^1.1.4"
+  }
+}
