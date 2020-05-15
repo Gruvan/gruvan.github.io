@@ -1,6 +1,6 @@
 {:title "DAGS ATT MAJSA"
  :layout :post
- :tags  ["cryogen"]
+ :tags  ["Övrigt"]
  :toc true}
 
 ## hej!

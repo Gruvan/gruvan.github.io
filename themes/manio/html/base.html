@@ -10,12 +10,21 @@
     {% endblock %}
     <link rel="canonical" href="{{site-url}}{{uri}}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="//fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700" rel="stylesheet"
-        type="text/css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <!-- <link href="//fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700" rel="stylesheet"
+        type="text/css"> -->
+    <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"> -->
     <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/styles/default.min.css"> -->
     <!-- <script type="text/javascript" src="http://livejs.com/live.js"></script> -->
+  
+    <!-- Computer Modern Serif-->
+    <!-- <link rel="stylesheet" href="fonts/Serif/cmun-serif.css"></link> -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
+    <style>
+      body {
+        font-family: "Computer Modern Sans", sans-serif;
+      }
+    </style>
     {% style "css/screen.css" %}
     {% style "css/main.css" %}
 </head>
@@ -1265,7 +1274,7 @@
                </g>
                </svg>
             </div>
-            <h2 {% if home %} class="active" {% endif %}><a href="{{index-uri}}">Home</a></h2>
+            <h2 {% if home %} class="active" {% endif %}><a href="{{index-uri}}">Alla inlägg</a></h2>
             {% if tags|not-empty %}
             {% for tag in tags %}
             <div>
@@ -1275,9 +1284,9 @@
             {% endif %}
 
             {% for nav-page in navbar-pages %}
-            <p {%ifequal page.uri nav-page.uri %} class="active" {% endifequal %}>
+            <h2 {%ifequal page.uri nav-page.uri %} class="active" {% endifequal %}>
                 <a href="{{nav-page.uri}}">{{nav-page.title}}</a>
-            </p>
+            </h2>
             {% endfor %}
 
         </div>

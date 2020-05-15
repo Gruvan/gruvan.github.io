@@ -12,3 +12,13 @@
 }
 
 @tailwind utilities;
+
+body {
+    font-family: "Computer Modern Typewriter", sans-serif;
+}
+
+ol, ul {
+    list-style: arabic-indic;
+    margin: 0;
+    padding: 0;
+}
