@@ -8,3 +8,5 @@ some stuff happened
 
 > Stop trying to make fetch happen.
 >- Regina
+
+![Image 1](/img/adam.png)
