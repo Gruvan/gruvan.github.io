@@ -3,10 +3,10 @@
  :tags  ["SICP"]
  :toc true}
 
- this is my newest post
+ Detta är mitt enda inlägg
 
  **TODO** 
- - include CV in 'another page'
+ - include CV in 'another page'?
  - understand purge CSS
  - ta bort onödiga filer osv. 
  4. läs hur man deployar till Github Pages

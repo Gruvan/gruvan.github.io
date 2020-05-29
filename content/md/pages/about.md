@@ -1,4 +1,4 @@
-{:title "About"
+{:title "Om den här sidan"
  :layout :page
  :page-index 0
  :navbar? true
