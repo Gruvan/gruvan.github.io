@@ -1,7 +1,7 @@
 {:site-title                   "Adams tankar"
  :author                       "Adam Bergman"
  :description                  "This blog is awesome"
- :site-url                     "http://oloallaoalaoaoalaoa git branch --set-upstream-to=origin/<branch> master.com/"
+ :site-url                     "https://adambergman.io"
  :post-root                    "posts"
  :page-root                    "pages"
  :post-root-uri                "posts-output"
@@ -15,11 +15,11 @@
  :recent-posts                 3
  :post-date-format             "yyyy-MM-dd"
  :archive-group-format         "yyyy MMMM"
- :sass-src                     []
+ :sass-src                     ["css"]
  :sass-path                    "sass"
  :theme                        "manio"
- :resources                    ["img" "CNAME"]
- :keep-files                   [".git" "public/blog/css/main.css" "public/blog/css/main.css" "/Users/adambergman/adambergmanio/public/blog/css/main.css"]
+ :resources                    ["img" "CNAME" "css"]
+ :keep-files                   [".git"];[".git" "public/blog/css/main.css" "public/blog/css/main.css" "/Users/adambergman/adambergmanio/public/blog/css/main.css"]
  :disqus?                      false
  :disqus-shortname             ""
  :ignored-files                [#"\.#.*" #".*\.swp$"]

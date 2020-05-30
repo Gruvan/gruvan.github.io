@@ -1,23 +1,46 @@
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Alegreya';
+
+
+@font-face {
+    font-family: 'Computer Modern';
+    src: url('cmuntt.woff'); 
+   
+  
+  }
+
+* {
+    font-family: 'Computer Modern', Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul { list-style: none; } /* Remove default bullets */
+
+li::before {
+    content: "\03BB"; /* Unicode bullet symbol */
+    color: rgb(241, 81, 23);  /* Bullet color */
+	
+	/* Optional tweaks */
+    font-weight: bold;
+    padding-right: 10px;
 }
 
 .headerlist {
-display: flex;
-justify-content: space-between;
-/* flex-direction: row; */
-flex-wrap: wrap;
+display: inline-flex;
+justify-content: space-evenly;
+flex-direction: row;
+/* flex-wrap: wrap; */
 }
 
 body {
     color: #333;
     background-color: #f2f2f2;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
 }
 
-svg {
-    max-width: 50px;
+.iconsvg {
+    max-width: 50%;
 }
 
 .container {
